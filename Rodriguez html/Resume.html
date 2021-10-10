@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Online Responsive Resume Demo</title>
+  <meta name="author" content="Diana Rodriguez">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<div id="w" itemscope itemtype="http://schema.org/Person">
+		<header class="clearfix">
+			<div id="info">			
+				<h1><span itemprop="name">Diana Rodriguez</span></h1>
+				<h3><span itemprop="jobTitle">Freelance Virtual Assistant &amp; Web Developer</span></h3>
+				<small itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				  <span itemprop="addressLocality">Puerto Princesa City</span>, 
+				  <span itemprop="addressRegion">Palawan</span>, 
+				  <span itemprop="addressCountry">Philippines</span>
+				</small>
+				<small><span itemprop="email">201880207@psu.palawan.edu.ph</span></small>
+				<small><a href="http://bydianarodriguez.com/" itemprop="url">My Portfolio</a> &bull; <a href="facebook.com/diana.rodriguez0728" itemprop="url">@diana.rodriguez0728</a></small>
+			</div>
+			
+			<div id="photo">
+				<img src="Images/pro pic.jpg" alt="Diana Rodriguez resume photo avatar" itemprop="image" />
+			</div>
+		</header>
+		
+		<section id="profile">
+			<h2>My History &amp; Profile</h2>
+			<p itemprop="description">I'm a 21 year old web designer and developer working out of Puerto Princesa City, Palawan. I have been coding websites ever since sophomore year of high school in my first web design class. Fast-forward a few years later I was landing freelance projects most of my junior and senior years. During this time I was also working part-time at the City Office of the Puerto Princesa Local Government as their IT employee and some clients from the Online service Job.</p>
+			
+		</section>
+		
+		<section id="skills" class="clearfix" itemscope itemtype="http://schema.org/ItemList">
+			<h2 itemprop="name">Skillset</h2>
+			<section id="skills-left">
+				<h4 itemprop="about">Development</h4>
+				<ul>
+					<li itemprop="itemListElement">HTML5/CSS3</li>
+					<li itemprop="itemListElement">JavaScript &amp; jQuery</li>
+					<li itemprop="itemListElement">PHP Backend</li>
+					<li itemprop="itemListElement">SQL Databases</li>
+					<li itemprop="itemListElement">Wordpress</li>
+					
+				</ul>
+			</section>
+			
+			<section id="skills-right">
+				<h4 itemprop="about">Software</h4>
+				<ul>
+					<li itemprop="itemListElement">Adobe Photoshop</li>
+					<li itemprop="itemListElement">Adobe Dreamweaver</li>
+					<li itemprop="itemListElement">MS Office 2007-2021</li>
+					<li itemprop="itemListElement">cPanel &amp; phpMyAdmin</li>
+					
+				</ul>
+			</section>
+		</section>
+		
+		<section id="education">
+			<h2>Past Education</h2>
+			<p><span itemprop="alumniOf">Sta. Monica High School</span> graduate of 2009.</p>
+            <p><span itemprop="alumniOf">Palawan State University</span> graduate of 2019</p>
+		</section>
+		
+		<section id="experience">
+			<h2>Work Experience</h2>
+			<p>Freelance Web Designer/Developer ~ 2019-2021</p>
+			<p>IT Personel in Local Government of Palawan ~ 2020-2021</p>
+			<p>Freelance Virtual Assistant for <span itemprop="worksFor">Quanto.com</span> ~ 2021-Present</p>
+		</section>
+		
+	</div>
+</body>
+</html>
